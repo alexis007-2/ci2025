@@ -13,3 +13,4 @@ $routes->get('/achat-stripe', 'Payment::achatStripe');
 $routes->get('/stripe-traitement', 'Payment::stripeTraitement');
 $routes->get('/success', 'Payment::success');
 $routes->get('/echec', 'Payment::echec');
+$routes->get('/monpdf', 'PdfController::monpdf');
